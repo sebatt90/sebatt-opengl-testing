@@ -20,9 +20,6 @@ int main(void)
         return -1;
     }
 
-    Logging::PrintErr("Esticazzi");
-    Logging::PrintWarn("Esticazzi");
-    Logging::Print("Esticazzi");
 
     /* Make the window's context current */
     glfwMakeContextCurrent(window);
