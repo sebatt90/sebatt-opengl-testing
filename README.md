@@ -1,1 +1,1 @@
-# sebatt-model-viewer
+# sebatt-opengl-testing
