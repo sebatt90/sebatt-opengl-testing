@@ -11,8 +11,12 @@ set(SOURCE
 
 add_executable(${PROJECT_NAME} ${SOURCE})
 
+find_package(GLEW REQUIRED)
+target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
+
 find_package(glfw3 3.3 REQUIRED)
 target_link_libraries(${PROJECT_NAME} glfw)
 
 find_package(OpenGL REQUIRED)
 target_link_libraries(${PROJECT_NAME} OpenGL::GL)
+
